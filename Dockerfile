@@ -1,5 +1,5 @@
 # Base image slave to jenkins on RPi
-FROM resin/rpi-raspbian:jessie
+FROM resin/rpi-raspbian:latest
 
 # Update sources && install packages
 RUN DEBIAN_FRONTEND=noninteractive ;\
